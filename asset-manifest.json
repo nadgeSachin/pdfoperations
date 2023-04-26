@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/nadgeSachin/pdfoperations.git/static/css/main.155f3c60.css",
+    "main.js": "/nadgeSachin/pdfoperations.git/static/js/main.e44bf816.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/nadgeSachin/pdfoperations.git/static/js/787.c4e7f8f9.chunk.js",
+    "pdf.worker.js": "/nadgeSachin/pdfoperations.git/89c8725856c0d4035f6e18d5da5fbff4.js",
+    "index.html": "/nadgeSachin/pdfoperations.git/index.html",
+    "main.155f3c60.css.map": "/nadgeSachin/pdfoperations.git/static/css/main.155f3c60.css.map",
+    "main.e44bf816.js.map": "/nadgeSachin/pdfoperations.git/static/js/main.e44bf816.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/nadgeSachin/pdfoperations.git/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.155f3c60.css",
+    "static/js/main.e44bf816.js"
+  ]
+}
