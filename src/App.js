@@ -1,25 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Merger from "./components/Merger";
+import DeletePages from './components/DeletePage';
+import Home from "./components/Home";
+import Navbar from "./components/Navbar"
+import Upload from './components/Upload';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css'
 
-function App() {
+const App = () => {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <BrowserRouter>
+      <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/upload" element={<Upload />} />
+          <Route path="/download" element={<Merger />} />
+          <Route path="/delete-pages" element={<DeletePages />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
 
 export default App;
+

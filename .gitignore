@@ -8,6 +8,21 @@
 # testing
 /coverage
 
+#backend
+**/backend/delete_input
+**/backend/delete_output
+**/backend/docx_input
+**/backend/docx_input
+**/backend/image_input
+**/backend/image_output
+**/backend/imagetext_input
+**/backend/imagetext_output
+**/backend/myeno
+**/backend/output_files
+**/backend/uploads
+**/src/test
+**/src/components/Extra.js
+
 # production
 /build
 

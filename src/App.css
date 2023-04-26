@@ -1,38 +1,39 @@
-.App {
+.merge-btn{
+  padding: 20px;
+  margin: 30px;
+  font-size: 28px;
+  font-weight: bold;
+  color: blue;
+  background-color: plum;
+  border-radius: 16px;
+  max-width: fit-content;
+  cursor: pointer;
+}
+.msg{
+  color: red;
+  font-size: x-large;
+}
+
+.heading{
   text-align: center;
+    background-color: burlywood;
+    margin: 0;
+    padding: 25px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.merge-form-merge-file{
+  padding: 40px;
+  display: grid;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  grid-gap: 20px;
+  background-color: beige;
+  max-width: fit-content;
+  border-radius: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
