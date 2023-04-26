@@ -32,6 +32,9 @@ app.config["IMAGETEXT_OUTPUT_FOLDER"] = os.path.abspath("imagetext_output")
 app.config["DOCX_INPUT_FOLDER"] = os.path.abspath("docx_input")
 app.config["DOCX_OUTPUT_FOLDER"] = os.path.abspath("docx_output")
 
+@app.route('/')
+def index():
+    return render_template('index.html')
 
 @app.route("/merge", methods=["POST"])
 def merge():
